@@ -70,8 +70,8 @@ function editPkgJson() {
       }
     },
     scripts: {
-      'std-cm': 'npx git-cz',
-      changelog: "npx conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+      'std-cm': 'git-cz',
+      changelog: "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
     }
   })
 
