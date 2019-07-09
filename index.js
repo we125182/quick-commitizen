@@ -86,7 +86,7 @@ function copyRulesToProject() {
 }
 
 // 自定义包管理器
-commander.version('0.1.0')
+commander.version('0.1.1')
   .option('-p, --package-manager <pkg>', 'package manager with npm in default')
   .action(async function (pkg) {
     // 需要安装的依赖包
